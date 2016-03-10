@@ -1,11 +1,13 @@
 body {
   background-color: #422424;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   color: #ffcccc;
 }
 h1 {
   margin-bottom: 20px;
   border-top: 15px solid #660000;
+  font-family: 'News Cycle', sans-serif;
   font-size: 48px;
   color: white;
 }
@@ -13,8 +15,20 @@ h1 + h2 {
   margin-top: -20px;
 }
 h2 {
+  font-weight: bold;
   font-size: 24px;
 }
 h2 + p {
   margin-top: 36px;
+}
+img {
+  float: left;
+  width: 300px;
+  margin: 20px 20px 20px 0;
+}
+p img {
+  float: right;
+  width: 100px;
+  margin-right: 0;
+  margin-left: 20px;
 }
