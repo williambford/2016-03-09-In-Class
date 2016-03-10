@@ -1,0 +1,20 @@
+body {
+  background-color: #422424;
+  font-size: 16px;
+  color: #ffcccc;
+}
+h1 {
+  margin-bottom: 20px;
+  border-top: 15px solid #660000;
+  font-size: 48px;
+  color: white;
+}
+h1 + h2 {
+  margin-top: -20px;
+}
+h2 {
+  font-size: 24px;
+}
+h2 + p {
+  margin-top: 36px;
+}
